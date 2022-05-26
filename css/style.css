@@ -137,8 +137,58 @@ vai pegar o primeiro bloco do group*/
 .app-download:nth-child(2) {
     background-image: url('../img/googleplay-button.png');
 }
+/*pagina cadastro*/
+
+.groupcadastro{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    /*1.3 = superior e inferior 0 = nas  laterais*/
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
 
 
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.instagram-wrapper-cadastro {
+    /*sempre vai alinhar tudo em linha ocupando o espaço que necessita dentro do container*/
+    display: flex;
+    /*alinhamento vertical eixo y*/
+    align-items: center;
+    /*alinhamento horizontal eixo x*/
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center; /* centraliza o texto horizontalmente */
+    align-items: center; /* centraliza as linhas verticalmente */
+    margin: 30px 0; /* 30px -> margens superior e inferior */
+ }
+ 
+ .titulo::before,
+ .titulo::after{
+    content: '';
+    position: relative;
+    height: 1px; /* espessura das linhas */
+    background: #666; /* cor das linhas */
+    min-width: 50px; /* largura mínima das linhas */
+    flex-grow: 1; /* distribui a largura das linhas por igual */
+ }
+ 
+ .titulo span{
+    color: #666; /* cor do texto */
+    padding: 0 15px; /* distancia do texto às linhas */
+    font-weight: bold; /* negrito */
+    font-size: 2em; /* tamanho do texto */
+ }
 /* media queries */
 
 @media (max-width: 1024px){
