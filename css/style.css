@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px;
+    color: rgb(160, 160, 160);
 }
 
 body{
@@ -90,7 +91,10 @@ vai pegar o primeiro bloco do group*/
     color: #fff;
     padding: 8px;
     border-radius: 4px;
+    width: 238px;
+    text-align: center;
 }
+
 
 .instagram-logout{
     color: #0095f6;
@@ -115,13 +119,17 @@ vai pegar o primeiro bloco do group*/
 }
 
 .download{
+    
+        padding: 1px;
+        width: 20rem;
+    
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     /*propiedade que deixa os elementos com a mesma largua de espaçamento dos lados e dos meios 
     deixando exatamente no centro*/
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .app-download{
@@ -138,22 +146,20 @@ vai pegar o primeiro bloco do group*/
     background-image: url('../img/googleplay-button.png');
 }
 /*pagina cadastro*/
-
+.groupcadastro:nth-child(1){
+    margin: 2px 0 10px;
+}
 .groupcadastro{
     display: flex;
     
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 300px;
-    /*1.3 = superior e inferior 0 = nas  laterais*/
-    padding: 1.3rem 0;
+    width: 350px;
     border: 1px solid lightgray;
-
-
-    border-radius: 1px;
-    margin: 0 0 10px;
+    margin: 2px 0 10px;
     padding: 10px 0;
+    
 }
 .instagram-wrapper-cadastro {
     /*sempre vai alinhar tudo em linha ocupando o espaço que necessita dentro do container*/
@@ -163,14 +169,17 @@ vai pegar o primeiro bloco do group*/
     /*alinhamento horizontal eixo x*/
     justify-content: center;
     width: 60%;
-    height: 100vh;
+   
 }
 
+
+
 .titulo{
+    width: 238px;
     display: flex;
     justify-content: center; /* centraliza o texto horizontalmente */
     align-items: center; /* centraliza as linhas verticalmente */
-    margin: 30px 0; /* 30px -> margens superior e inferior */
+    margin: 10px 0; /* 30px -> margens superior e inferior */
  }
  
  .titulo::before,
@@ -178,17 +187,45 @@ vai pegar o primeiro bloco do group*/
     content: '';
     position: relative;
     height: 1px; /* espessura das linhas */
-    background: #666; /* cor das linhas */
+    background: rgb(160, 160, 160); /* cor das linhas */
     min-width: 50px; /* largura mínima das linhas */
     flex-grow: 1; /* distribui a largura das linhas por igual */
  }
  
  .titulo span{
-    color: #666; /* cor do texto */
+    color: rgb(160, 160, 160); /* cor do texto */
     padding: 0 15px; /* distancia do texto às linhas */
     font-weight: bold; /* negrito */
-    font-size: 2em; /* tamanho do texto */
  }
+ .cadastra-seh{
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 20px 40px 10px;
+}
+.cadastra-se{
+    color: rgb(160, 160, 160);
+    text-align: center;
+    line-height: 20px;
+    margin: 0 40px 10px;
+}
+.cadastrar-form{
+   
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    width: 238px;
+    border: 1px solid lightgray;
+    margin: 3px 0;
+    font-size: 10px;
+    
+}
+form{
+    text-align: center;
+    
+}
 /* media queries */
 
 @media (max-width: 1024px){
