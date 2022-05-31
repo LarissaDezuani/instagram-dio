@@ -94,6 +94,13 @@ vai pegar o primeiro bloco do group*/
     width: 238px;
     text-align: center;
 }
+.instagram-login-face{
+    color: #385185;
+    padding: 8px;
+    border-radius: 4px;
+    width: 238px;
+    text-align: center;
+}
 
 
 .instagram-logout{
