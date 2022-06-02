@@ -37,7 +37,7 @@ body{
     width: 50%;
 }
 .instagram-phone img {
-    height: 50rem;
+    height: 37rem;
 }
 
 
@@ -90,9 +90,11 @@ vai pegar o primeiro bloco do group*/
     background-color: #0095f6;
     color: #fff;
     padding: 8px;
+    margin: 10px 0 0 0;
     border-radius: 4px;
     width: 238px;
     text-align: center;
+
 }
 .instagram-login-face{
     color: #385185;
@@ -154,11 +156,11 @@ vai pegar o primeiro bloco do group*/
 }
 /*pagina cadastro*/
 .groupcadastro:nth-child(1){
-    margin: 2px 0 10px;
+    margin: 45px 0 10px 0;
+    padding: 30px 0;
 }
 .groupcadastro{
-    display: flex;
-    
+    display: flex; 
     align-items: center;
     flex-direction: column;
     background-color: #fff;
@@ -220,7 +222,7 @@ vai pegar o primeiro bloco do group*/
 }
 .cadastrar-form{
    
-    color: #fff;
+    color: #000;
     padding: 8px;
     border-radius: 4px;
     width: 238px;
@@ -260,6 +262,9 @@ form{
     }
     
     .group {
+        border: 1px solid transparent;
+    }
+    .groupcadastro {
         border: 1px solid transparent;
     }
     .download{
