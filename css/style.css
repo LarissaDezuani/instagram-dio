@@ -36,11 +36,10 @@ body{
     justify-content: center;
     width: 50%;
 }
+
 .instagram-phone img {
     height: 37rem;
 }
-
-
 
 .instagram-continue{
     display: flex;
@@ -96,6 +95,7 @@ vai pegar o primeiro bloco do group*/
     text-align: center;
 
 }
+
 .instagram-login-face{
     color: #385185;
     padding: 8px;
@@ -103,7 +103,6 @@ vai pegar o primeiro bloco do group*/
     width: 238px;
     text-align: center;
 }
-
 
 .instagram-logout{
     color: #0095f6;
@@ -154,11 +153,13 @@ vai pegar o primeiro bloco do group*/
 .app-download:nth-child(2) {
     background-image: url('../img/googleplay-button.png');
 }
+
 /*pagina cadastro*/
 .groupcadastro:nth-child(1){
     margin: 45px 0 10px 0;
     padding: 30px 0;
 }
+
 .groupcadastro{
     display: flex; 
     align-items: center;
@@ -170,6 +171,7 @@ vai pegar o primeiro bloco do group*/
     padding: 10px 0;
     
 }
+
 .instagram-wrapper-cadastro {
     /*sempre vai alinhar tudo em linha ocupando o espaço que necessita dentro do container*/
     display: flex;
@@ -180,8 +182,6 @@ vai pegar o primeiro bloco do group*/
     width: 60%;
    
 }
-
-
 
 .titulo{
     width: 238px;
@@ -206,6 +206,7 @@ vai pegar o primeiro bloco do group*/
     padding: 0 15px; /* distancia do texto às linhas */
     font-weight: bold; /* negrito */
  }
+
  .cadastra-seh{
     color: rgb(160, 160, 160);
     text-align: center;
@@ -214,12 +215,14 @@ vai pegar o primeiro bloco do group*/
     line-height: 20px;
     margin: 20px 40px 10px;
 }
+
 .cadastra-se{
     color: rgb(160, 160, 160);
     text-align: center;
     line-height: 20px;
     margin: 0 40px 10px;
 }
+
 .cadastrar-form{
    
     color: #000;
@@ -231,10 +234,12 @@ vai pegar o primeiro bloco do group*/
     font-size: 10px;
     
 }
+
 form{
     text-align: center;
     
 }
+
 /* media queries */
 
 @media (max-width: 1024px){
@@ -264,9 +269,11 @@ form{
     .group {
         border: 1px solid transparent;
     }
+
     .groupcadastro {
         border: 1px solid transparent;
     }
+    
     .download{
         padding: 1px;
         width: 20rem;
